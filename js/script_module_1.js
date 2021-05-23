@@ -3,9 +3,9 @@
 // a = b * 2;
 
 //Module_1
-//  Task_1
-// const productName = "Droid";
-// const pricePerItem = 2000;
+Task_1;
+const productName = "Droid";
+const pricePerItem = 2000;
 
 // Task_2
 let productName = "Droid";
