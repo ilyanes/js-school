@@ -54,3 +54,53 @@ const fruits = ["apple", "plum", "pear", "orange"];
 fruits[1] = "peach";
 fruits[3] = "banana";
 // Write your code under this line
+
+// Task_7
+const fruits = ["apple", "peach", "pear", "banana"];
+const fruitsArrayLength = fruits.length;
+// 4 длина
+
+// Task_8
+const fruits = ["apple", "peach", "pear", "banana"];
+const lastElementIndex = fruits.length - 1;
+const lastElement = fruits[lastElementIndex];
+
+// Task_9
+function getExtremeElements(array) {
+  // Change code below this line
+  const lastElementIndex = array.length - 1;
+  const lastElement = array[lastElementIndex];
+  const firstElement = array[0];
+  const newArray = [firstElement, lastElement];
+  return newArray;
+}
+getExtremeElements([1, 2, 3, 4, 5]);
+// [1.5]
+
+// Task_10
+function splitMessage(message, delimeter) {
+  let words;
+  // Change code below this line
+  words = message.split(delimeter);
+  // Change code above this line
+  return words;
+}
+
+// Task_11
+function calculateEngravingPrice(message, pricePerWord) {
+  // Change code below this line
+  message = message.split(" ").length * pricePerWord;
+  return message;
+}
+
+// Task_12
+function makeStringFromArray(array, delimeter) {
+  let string;
+  // Change code below this line
+  string = array.join(delimeter);
+
+  // Change code above this line
+  return string;
+}
+makeStringFromArray(["top", "picks", "for", "you"], "_");
+// top_picks_for_you
